@@ -17,7 +17,7 @@ const Home = async ({ searchParams }) => {
 
   const data = await res.json();
   const result = data.results;
-  console.log(result);
+  // console.log(result);
   return (
     <div>
       <Results results={result} />
